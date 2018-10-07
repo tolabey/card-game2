@@ -22,17 +22,4 @@ export const utils = {
   getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
   },
-
-  insertionSort(list) {
-    for(let j = 2; j < list.length; j++) {
-      let key =  list[j];
-      let i = j - 1;
-      while(i > 0 && list[i] > key) {
-        list[i + 1] = list[i];
-        i -= 1;
-      }
-      list[i + 1] = key;
-    }
-    return list;
-  }
 }
