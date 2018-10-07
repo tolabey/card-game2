@@ -5,11 +5,9 @@ import {utils} from "../Utils/utils.js";
 class Test extends React.Component{
   constructor(props){
     super(props);
-    console.log(this.props.dispatch, "mustafa");
 
   }
   render(){
-    console.log(this.props)
     return(
       <div className="App">
         <h1> test!!! </h1>

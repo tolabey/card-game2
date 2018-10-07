@@ -1,0 +1,23 @@
+.card img {
+    width: 100px;
+    height: 150px;
+}
+
+.multi-cards-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.multi-cards {
+    display: flex;
+}
+
+.total-score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+
+}
